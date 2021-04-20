@@ -1,0 +1,22 @@
+{
+  "name": "classes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tokanito/classes.git"
+  },
+  "keywords": [
+    "class"
+  ],
+  "author": "victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tokanito/classes/issues"
+  },
+  "homepage": "https://github.com/tokanito/classes#readme"
+}
