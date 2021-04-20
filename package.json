@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/tokanito/classes/issues"
   },
-  "homepage": "https://github.com/tokanito/classes#readme"
+  "homepage": "https://github.com/tokanito/classes#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.13.16",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.15"
+  }
 }
