@@ -1,11 +1,10 @@
-const assert = require('assert');
 let count=0;
 
 import {Person} from 'src/person.js';
 // import {Student} from './student';
 // import {Employee} from './employee';
 // import {Manager} from './manager';
-
+console.log ('Person Module');
 
 let firstman = new Person('salmanov', 'victor');
 firstman.show();
@@ -23,3 +22,6 @@ firstman.show();
 // console.log (count);
 // secondman.showNumberOfPeople();
 // fourthman.showNumberOfPeople();
+
+
+//  npm i --save-dev @babel/core @babel/cli @babel/node @babel/preset-env

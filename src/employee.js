@@ -1,4 +1,5 @@
-class Employee extends Person {
+import {Person} from './person';
+export class Employee extends Person {
     constructor(surname,name,salary){    
         super(surname,name);
         this.salary=salary;

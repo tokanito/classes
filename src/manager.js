@@ -1,4 +1,5 @@
-class Manager extends Employee {
+import {Employee} from './employee';
+export class Manager extends Employee {
     constructor(surname,name,salary){    
         super(surname,name,salary);
         this.listOfSubordinateEmployees=[];   
