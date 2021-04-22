@@ -1,4 +1,4 @@
-import {Employee} from './employee';
+import {Employee} from './employee.js';
 export class Manager extends Employee {
     constructor(surname,name,salary){    
         super(surname,name,salary);
@@ -11,6 +11,6 @@ export class Manager extends Employee {
         super.addPayDaySalary(date,sumAmount);
     }
     addSubordinateEmployee(employee){
-        listOfSubordinateEmployees.push(employee);
+        this.listOfSubordinateEmployees.push(employee);
     }
 }
