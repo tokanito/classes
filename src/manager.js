@@ -13,4 +13,7 @@ export class Manager extends Employee {
     addSubordinateEmployee(employee){
         this.listOfSubordinateEmployees.push(employee);
     }
+    removeSubordinateEmployee(employee){
+        this.listOfSubordinateEmployees.pop();
+    }
 }

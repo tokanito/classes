@@ -8,7 +8,8 @@ export class Employee extends Person {
     show(){
         super.show();
     }
-    addPayDaySalary(date,sumAmount){
-        this.dataOfSalary.push(date+' получил '+sumAmount+' рублей');
+    addPayDaySalary(sumAmount){
+        let date=new Date ();
+        this.dataOfSalary.push(date.toLocaleDateString()+' получил '+sumAmount+' рублей');
     }
 }
