@@ -5,10 +5,16 @@ export class Employee extends Person {
         this.salary=salary;
         this.dataOfSalary=[];
     }
+    
+    getdataOfSalary() {
+        console.log (this.dataOfSalary);
+        return this.dataOfSalary;
+    }
     show(){
         super.show();
     }
-    addPayDaySalary(sumAmount){
+    setdataOfSalary(sumAmount){
+        if (sumAmount < 0) throw new Error("Отрицательное количество");
         let date=new Date ();
         this.dataOfSalary.push(date.toLocaleDateString()+' получил '+sumAmount+' рублей');
     }

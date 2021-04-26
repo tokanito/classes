@@ -2,18 +2,19 @@ import {Employee} from './employee.js';
 export class Manager extends Employee {
     constructor(surname,name,salary){    
         super(surname,name,salary);
-        this.listOfSubordinateEmployees=[];   
+        this.listOfSubordinateEmployees=[];
+        
     }
     show(){
         super.show();
     }
-    addPayDaySalary(date,sumAmount){
-        super.addPayDaySalary(date,sumAmount);
+    setdataOfSalary(sumAmount){
+        super.setdataOfSalary(sumAmount);
     }
     addSubordinateEmployee(employee){
         this.listOfSubordinateEmployees.push(employee);
     }
-    removeSubordinateEmployee(employee){
+    removeSubordinateEmployee(){
         this.listOfSubordinateEmployees.pop();
     }
 }
